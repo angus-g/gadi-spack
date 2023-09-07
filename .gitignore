@@ -1,0 +1,4 @@
+config/bootstrap/
+config/cache/
+
+*.pyc
