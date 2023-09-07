@@ -1,0 +1,18 @@
+mirrors:
+  sources:
+    fetch:
+      url: file:///g/data/x77/ahg157/spack/sources
+      access_pair:
+      - null
+      - null
+      access_token: null
+      profile: null
+      endpoint_url: null
+    push:
+      url: file:///g/data/x77/ahg157/spack/sources
+      access_pair:
+      - null
+      - null
+      access_token: null
+      profile: null
+      endpoint_url: null
