@@ -1,0 +1,10 @@
+--- a/code/Makefile	2021-04-14 18:56:45.000000000 +0000
++++ b/code/Makefile	2023-09-11 03:40:33.937412747 +0000
+@@ -105,3 +105,7 @@
+ 
+ .c.o:
+ 		${CC} -c ${IFLAG} ${CFLAGS} -o $*.o $*.c
++
++libchaco.so: $(FILES.o)
++		ar -r $@ $(filter-out main/main.o,$(FILES.o))
++		ranlib $@
