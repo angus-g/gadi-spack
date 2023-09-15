@@ -7,7 +7,7 @@ config:
   # source_cache: $spack/../var/cache
   # environments_root: $spack/../environments # Only work in Spack v0.20 or later.
   build_stage:
-    - ${PBS_JOBFS}/spack-stage
+    # - $PBS_JOBFS/spack-stage
     - $tempdir/$user/spack-stage
 
   test_stage: /scratch/x77/ahg157/cache/test
