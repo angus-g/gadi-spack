@@ -9,10 +9,6 @@ modules:
       - LIBRARY_PATH
       - LD_LIBRARY_PATH
   default:
-    # Where to install modules
-    roots:
-      tcl: $spack/../modules
-      lmod: $spack/../share/lmod
     # What type of modules to use ("tcl" and/or "lmod")
     enable: [tcl]
     tcl:
