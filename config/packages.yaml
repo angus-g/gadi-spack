@@ -165,6 +165,11 @@ packages:
     - spec: perl@5.26.3~cpanm+shared+threads
       prefix: /usr
     buildable: false
+  nci-openmpi:
+    externals:
+    - spec: nci-openmpi@4.1.4
+      prefix: /apps/openmpi/4.1.4
+    buildable: false
   openmpi:
     externals:
     - spec: openmpi@2.1.6
